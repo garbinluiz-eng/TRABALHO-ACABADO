@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+     color:rgb(144, 23, 243);
+     font-family:cursive
+     
+     
+    }
+
+
+h2 {
+    text-align: center;
+    
+    position: relative;
+    top: 150px;
+    font-size: 60px;
+    color:rgb(231, 12, 12);
+     font-family:cursive
+}
+    
+
+
+
+body {
+    border-left: 30px solid rgb(236, 48, 142);
+    border-right: 30px solid rgb(236, 48, 142);
+
+    background-image: url(imagens/904433.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h3 {
+    text-align: right;
+    margin-left: 50px;
+    position: relative;
+    top: 240px;
+     text-align: justify;
+     font-size: 21px;
+      color: #3b0a57;
+    text-shadow: 1px 1px 2px white;
+      
+     font-family:cursive
+     
+}
+.conteudo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.conteudo img {
+    width: 400px;
+    margin-top: -130px;
+    margin-left: 300px;
+}
+
+  
+    .botao-voltar {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 10px 20px;
+
+    background-color: #f5c4d8;
+    color: #8a3d5c;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #e9a8c4;
+    color: #6d2945;
+    transform: translateY(-2px);
+}
+#likeBtn {
+    color: #b54870;
+}
+
+#dislikeBtn {
+    color: #75506a;
+}
+
+#likeBtn:hover {
+    background: #ffd6e5;
+}
+
+#dislikeBtn:hover {
+    background: #e8d9e7;
+}

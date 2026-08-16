@@ -1,0 +1,68 @@
+p {
+    margin: 30px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px white;
+    font-size: 30px;
+    color: #70ddd8;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-family: comicsansms;
+    color: #4b9bf7;
+    text-shadow: 1px 1px 2px rgb(26, 35, 37);
+}   
+
+
+body {
+    border-left: 30px solid rgb(109, 169, 197);
+    border-right: 30px solid rgb(109, 169, 197);
+
+    background-image: url(imagens/877002.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+     color:rgb(96, 205, 219);
+    text-shadow: 1px 1px 2px white;
+     font-family:cursive
+  
+     
+    }
+    .botao-voltar {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 10px 20px;
+
+    background-color: #f5c4d8;
+    color: #8a3d5c;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #e9a8c4;
+    color: #6d2945;
+    transform: translateY(-2px);
+}
